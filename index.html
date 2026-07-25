@@ -205,10 +205,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:400;display:flex;align-items:cen
 .testimonial-name{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--forest-dk);display:block;margin-bottom:0.15rem;}
 .testimonial-detail{font-size:0.58rem;letter-spacing:0.1em;color:var(--sage);}
 
-/* BLOG */
-#page-blog{background:var(--cream);}
-.blog-add{background:var(--butter);border:1.5px dashed var(--light);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;padding:4rem;text-align:center;min-height:280px;margin:1.5px;}
-.blog-add span{font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--mid);}
 
 /* RESPONSIVE */
 @media (max-width:768px){
@@ -260,7 +256,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:400;display:flex;align-items:cen
     <li><a onclick="showPage('home')" id="nav-home" class="active">Home</a></li>
     <li><a onclick="showPage('work')" id="nav-work">Work</a></li>
     <li><a onclick="showPage('testimonials')" id="nav-testimonials">Testimonials</a></li>
-    <li><a onclick="showPage('blog')" id="nav-blog">Journal</a></li>
     <li><a onclick="showPage('contact')" id="nav-contact">Contact</a></li>
   </ul>
   <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
@@ -273,7 +268,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:400;display:flex;align-items:cen
   <a onclick="mobileNav('home')">Home</a>
   <a onclick="mobileNav('work')">Work</a>
   <a onclick="mobileNav('testimonials')">Testimonials</a>
-  <a onclick="mobileNav('blog')">Journal</a>
   <a onclick="mobileNav('contact')">Contact</a>
 </div>
 
@@ -450,13 +444,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:400;display:flex;align-items:cen
       </div>
     </div>
   </div>
-  <div class="page-footer"><span class="footer-brand">House of Avani</span><span class="footer-copy">© 2026</span></div>
-</div>
-
-<!-- JOURNAL -->
-<div class="page" id="page-blog">
-  <div class="page-header"><h1>Journal</h1><p>Thoughts on craft, design, and the world of jewellery</p></div>
-  <div class="blog-add"><div style="font-size:2rem;color:var(--sage);">+</div><span>Ask me to add your first journal entry</span></div>
   <div class="page-footer"><span class="footer-brand">House of Avani</span><span class="footer-copy">© 2026</span></div>
 </div>
 
